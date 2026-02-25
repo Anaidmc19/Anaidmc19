@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PRACTICA 5</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    
+</head>
+
+<body>
+    <aside class="menu">
+        <h2>FULANO</h2>
+        <ul>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Mis trabajos</a></li>
+            <li><a href="#">¿Por qué trabajar conmigo?</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </aside>
+    <div class="banner">
+        <img src="Imagenes/fondo.jpg" alt="Fondo">
+    </div>
+    <article>
+        <section class="sobremi">
+            <div class="contenido-sobremi">
+                <img class="retrato" src="Imagenes/yo.jpg" alt="Retrato">
+                <div class="texto-sobremi">
+                    <h2>Sobre mí</h2>
+                    <p>
+                        Mi nombre es Jonathan Lifschitz y soy diseñador de páginas web. 
+                        Tengo experiencia en desarrollo de sitios web para pequeñas y medianas
+                        empresas, hasta tiendas en línea con carrito de compras.
+                    </p>
+                    <p>
+                        Me aseguro de utilizar siempre las últimas tecnologías de desarrollo web: 
+                        HTML5, CSS3, jQuery, Wordpress. Si necesitas una página web moderna, funcional,
+                        que se adapte a todos los diferentes tipos de pantalla, te aseguro que llegaste
+                        al lugar correcto.
+                    </p>
+                    <p>
+                        Podes ponerte en contacto conmigo a través de Facebook, Likendin o complementando
+                        el formulario de contacto que se encentra al final de mi sitio web.
+                    </p>
+                    <button type="button">VER MIS TRABAJOS</button>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+             <h2 class="titulo-s">Servicios</h2>
+            <div class="contenedor-tarjetas">
+            <div class="tarjetaw">
+                <h2>Diseño Web</h2>
+                <p>Páginas web atractivas y funcionales con el objetivo de satisfaer todas tus expectativas.</p>
+                <img class="logo" src="Imagenes/monitor.png" alt="Monitor">
+            </div>
+            <div class="tarjetar">
+                <h2>Responsive Design</h2>
+                <p></p>
+                <img class="logo" src="Imagenes/mobile.png" alt="Mobile">
+            </div>
+            <div class="tarjetas">
+                <h2>SEO</h2>
+                <p></p>
+                <img class="logo" src="Imagenes/seo.png" alt="Seo">
+            </div>
+             <div class="tarjetaa">
+                <h2>Autoadministrable</h2>
+                <p></p>
+                <img class="logo" src="Imagenes/wordpress.png" alt="Autoadministrable">
+            </div>
+            <div class="tarjetam">
+                <h2>Mantenimiento</h2>
+                <p></p>
+                <img class="logo" src="Imagenes/mante.png" alt="Mantenimiento">
+            </div>
+            <div class="tarjetad">
+                <h2>Marketing</h2>
+                <p></p>
+                <img class="logo" src="Imagenes/marketing.png" alt="Marketing">
+            </div>
+            </div>
+        </section>
+    </article>
+    
+    <div class="carrusel">
+        <h2>HOLA MUNDO</h2>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({ 
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+    </div>
+</body>
+</html>
