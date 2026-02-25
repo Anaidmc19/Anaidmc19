@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    background-color: rgb(43, 130, 170);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana;
+}
+.menu h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Verdana;
+}
+.menu a:hover {
+    color: #042658;
+}
+article, .banner {
+    margin-top: 80px; 
+}
+.banner {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sobremi {
+    padding: 80px 50px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;   
+}
+.contenido-sobremi {
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    gap: 50px;
+    max-width: 1100px;
+    width: 100%;
+}
+.retrato {
+    width: 300px;
+    border-radius: 10px;
+}
+.texto-sobremi h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.texto-sobremi p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    max-width: 600px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #2869b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #a1cbfa;
+}
+.servicios {
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+.titulo-s {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contenedor-tarjetas p {
+    line-height: 1.7;
+    text-align: justify;
+}
+.tarjetaw, .tarjetar, .tarjetas, .tarjetaa, .tarjetam, .tarjetad {
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    min-height: 150px;
+
+    display: flex;             
+    flex-direction: column;     
+    justify-content: space-between; 
+}
+.tarjetaw {
+    background-color: rgb(23, 110, 192);
+}
+.tarjetar {
+    background-color: rgb(146, 95, 240);
+}
+.tarjetas {
+    background-color: rgb(233, 98, 188);
+}
+.tarjetaa {
+    background-color: rgb(98, 229, 233);
+}
+.tarjetam {
+    background-color: rgb(139, 238, 144);
+}
+.tarjetad {
+    background-color: rgb(238, 228, 139);
+}
+.tarjetaw:hover, .tarjetar:hover, .tarjetas:hover, .tarjetaa:hover, .tarjetam:hover, .tarjetad:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;   
+    margin-top: auto;       
+}
+.carrusel h2 {
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
