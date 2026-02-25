@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PRACTICA 2</title>
+<style>
+h1 {
+ background-color: black;
+ color: white;
+ margin-left: 10 px;
+ margin-right: 10 px;
+}
+.mclaren {
+  display: flex;
+  margin: 20px 30px;
+}
+.logomc {
+  width: 350px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.mercedes {
+  display: flex;
+  margin: 20px 30px;
+}
+.logomrc {
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.redbull {
+  display: flex;
+  margin: 20px 30px;
+}
+.logored {
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cadillac {
+  display: flex;
+  margin: 20px 30px;
+}
+.logocad {
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+</style>
+</head>
+<body>
+
+<h1>ESCUDERIAS F1</h1>
+
+<div class="mclaren">
+
+<img class="logomc" src="C:\Users\anaid\OneDrive\Documentos\PRACTICA 2\IMAGENES\mc.png" alt=""> 
+
+<div>
+<h2 style="color:orange; font-family: Georgia;">McLaren</h2>
+<p style="text-align: justify;">McLaren es la segunda escudería más exitosa de la historia después de Ferrari. Tras una década de sequía, han regresado a la gloria proclamándose campeones del mundo de constructores en 2024. Su identidad actual se basa en un diseño aerodinámico excepcional y en una pareja de pilotos jóvenes, Lando Norris y Oscar Piastri, que los han devuelto a la lucha constante por las victorias bajo la dirección de Andrea Stella.</p>
+</div>
+
+</div> 
+
+<div class="mercedes">
+
+<div>
+<h2 style="color:#00A19B; font-family: Georgia;">Mercedes</h2>
+<p style="text-align: justify;">Representa la era de dominio más larga de la Fórmula 1, habiendo ganado ocho títulos consecutivos entre 2014 y 2021. Tras el cambio de normativa de 2022, el equipo sufrió para entender su monoplaza, pero siguen siendo una de las estructuras más sólidas a nivel técnico. Actualmente atraviesan un periodo de transición crítica tras la histórica salida de Lewis Hamilton, buscando recuperar su lugar como el referente tecnológico de la parrilla.</p>
+</div>
+
+<img class="logomrc" src="C:\Users\anaid\OneDrive\Documentos\PRACTICA 2\IMAGENES\mrc.png" alt=""> 
+
+</div>
+
+<div class="redbull">
+
+<img class="logored" src="C:\Users\anaid\OneDrive\Documentos\PRACTICA 2\IMAGENES\images.png" alt=""> 
+
+<div>
+<h2 style="color:red; font-family: Georgia;">Red Bull</h2>
+<p style="text-align: justify;">Es el equipo que revolucionó la F1 con su enfoque agresivo y su capacidad de innovación técnica. Después de dominar la categoría con Sebastian Vettel y más recientemente con Max Verstappen, el equipo se enfrenta ahora a su mayor desafío histórico: la creación de sus propios motores para 2026. A pesar de haber perdido su hegemonía absoluta en 2024 frente a McLaren, siguen siendo el equipo a batir en cuanto a estrategia y rendimiento del piloto.</p>
+</div>
+
+</div>
+
+<div class="cadillac">
+
+<div>
+<h2 style="color:#A6A6A6; font-family: Georgia;">Cadillac</h2>
+<p style="text-align: justify;">Es la gran novedad del automovilismo mundial. La marca estadounidense de General Motors entrará oficialmente a la Fórmula 1 en la temporada 2026, convirtiéndose en el undécimo equipo de la parrilla. Entran con una base muy sólida al heredar la estructura de Andretti y han generado mucha expectativa al fichar a pilotos de gran experiencia como Sergio "Checo" Pérez y Valtteri Bottas para liderar su ambicioso proyecto en la categoría reina.</p>
+</div>
+
+<img class="logocad" src="C:\Users\anaid\OneDrive\Documentos\PRACTICA 2\IMAGENES\cadillac.jpg" alt=""> 
+
+</div>
+
+</body>
+</html>

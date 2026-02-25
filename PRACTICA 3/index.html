@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>PRACTICA 5</title>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo-titulo">MOTORSDARA</div>
+</header>
+
+<div class="contenedor-principal">
+  <nav class="menu-lateral">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Calendario</a></li>
+      <li><a href="#">Escuderias</a></li>
+      <li><a href="#">Circuitos</a></li>
+      <li>
+        <input type="checkbox" id="btn-modal" class="modal-state">
+        <label for="btn-modal" class="menu-label">Inicia Sesión</label>
+
+        <div class="modal-container">
+          <div class="modal-content">
+            <label for="btn-modal" class="lbl-close">&times;</label>
+            <form class="form-login">
+              <h2>Inicia Sesión</h2>
+              <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+              <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+              <button type="submit">Entrar</button>
+            </form>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="contenido-principal">
+
+    <div id="banner">
+      <ul>
+        <li><img src="imagenes/foto5.png" alt="Foto 5"></li>
+        <li><img src="imagenes/foto4.jpg" alt="Foto 4"></li>
+        <li><img src="imagenes/Foto1.jpg" alt="Foto 1"></li>
+        <li><img src="imagenes/Foto0.jpg" alt="Foto 0"></li>
+        <li><img src="imagenes/Foto2.jpg" alt="Foto 2"></li>
+      </ul>
+    </div>
+
+<main class="contenido">
+
+<h1 class="titulo">ESCUDERIAS F1</h1>
+<p style="text-align: justify; color: black; font-size: 15px; line-height: 1.7; margin: 20px; font-family: Verdana;">
+Una escudería de F1 es un equipo integral formado por pilotos, ingenieros, mecánicos y diseñadores que fabrican y operan sus propios monoplazas para competir en el Campeonato Mundial de Fórmula 1. Estas estructuras compiten tanto por el campeonato de pilotos como por el de constructores, representando la unión entre tecnología punta y rendimiento deportivo.
+</p>
+
+<div class="contenedor-parrilla">
+
+  <div class="tarjeta mclaren">
+    <img class="logo" src="imagenes/9807_McLaren_Logo.png" alt="Logo McLaren">
+    <div class="encabezado">
+      <h2>McLaren</h2>
+      <img class="bandera" src="imagenes/bandeira-reino-unido-1.png" alt="Bandera Reino Unido">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Reino Unido</p>
+      <p><b>Pilotos: </b></p>
+      <p>1 Lando Norris</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Es la segunda escudería más exitosa de la historia después de Ferrari. Tras una década de sequía, han regresado a la gloria proclamándose campeones del mundo de constructores en 2024. Su identidad actual se basa en un diseño aerodinámico excepcional y en una pareja de pilotos jóvenes.</p>
+    </div>
+  </div>
+
+  <div class="tarjeta mercedes">
+    <img class="logo" src="imagenes/Mercedes-Logo.svg.png" alt="Logo Mercedes">
+    <div class="encabezado">
+      <h2>Mercedes</h2>
+      <img class="bandera" src="imagenes/flags_PNG14615.png" alt="Bandera Alemania">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Alemania</p>
+      <p><b>Pilotos: </b></p>
+      <p>12 Andrea Kimi Antonelli</p>
+      <p>63 George Russell</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Representa la era de dominio más larga de la Fórmula 1, habiendo ganado ocho títulos consecutivos entre 2014 y 2021. Tras el cambio de normativa de 2022, el equipo sufrió para entender su monoplaza, pero sigue siendo una de las estructuras más sólidas a nivel técnico.</p>
+    </div>
+  </div>
+
+  <div class="tarjeta redbull">
+    <img class="logo" src="imagenes/red_bull.png" alt="Logo Red Bull">
+    <div class="encabezado">
+      <h2>Red Bull</h2>
+      <img class="bandera" src="imagenes/austria.png" alt="Bandera Austria">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Austria</p>
+      <p><b>Pilotos: </b></p>
+      <p>3 Max Verstappen</p>
+      <p>6 Isack Hadjar</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Es el equipo que revolucionó la F1 con su enfoque agresivo y su capacidad de innovación técnica. Después de dominar la categoría con Sebastian Vettel y Max Verstappen, el equipo enfrenta el reto de crear sus propios motores para 2026.</p>
+    </div>
+  </div>
+
+  <div class="tarjeta cadillac">
+    <img class="logo" src="imagenes/Cadillac-Logo.png" alt="Logo Cadillac">
+    <div class="encabezado">
+      <h2>Cadillac</h2>
+      <img class="bandera" src="imagenes/National-Flag-Of-United-States.jpg" alt="Bandera Estados Unidos">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Estados Unidos</p>
+      <p><b>Pilotos: </b></p>
+      <p>11 Sergio Perez</p>
+      <p>77 Valtteri Bottas</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Cadillac entrará oficialmente a la Fórmula 1 en 2026 como el undécimo equipo de la parrilla. Respaldados por General Motors, llegan con una base sólida y altas expectativas dentro del automovilismo mundial.</p>
+    </div>
+  </div>
+
+  <div class="tarjeta ferrari">
+    <img class="logo" src="imagenes/ScuderiaFerrari.png" alt="Logo Ferrari">
+    <div class="encabezado">
+      <h2>Ferrari</h2>
+      <img class="bandera" src="imagenes/italian-flag-of-italy-png.webp" alt="Bandera Italia">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Italia</p>
+      <p><b>Pilotos: </b></p>
+      <p>16 Charles Leclerc</p>
+      <p>44 Lewis Hamilton</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Ferrari es la escudería más histórica y emblemática de la Fórmula 1, siendo el único equipo presente en todas las temporadas del campeonato. Su legado combina pasión, innovación y tradición.</p>
+    </div>
+  </div>
+
+  <div class="tarjeta aston">
+    <img class="logo" src="imagenes/aston_martin.png" alt="Logo Aston Martin">
+    <div class="encabezado">
+      <h2>Aston Martin</h2>
+      <img class="bandera" src="imagenes/bandeira-reino-unido-1.png" alt="Bandera Reino Unido">
+    </div>
+    <div class="ficha-tecnica">
+      <p><b>País: </b>Reino Unido</p>
+      <p><b>Pilotos: </b></p>
+      <p>14 Fernando Alonso</p>
+      <p>48 Lance Stroll</p>
+    </div>
+    <div class="texto-escuderia">
+      <p>Es una escudería de Fórmula 1 que representa el regreso de una marca histórica al máximo nivel del automovilismo. Con base en Silverstone, el equipo ha destacado por su rápido crecimiento.</p>
+    </div>
+  </div>
+
+</div>
+</main>
+
+  </div>
+</div>
+
+<footer>
+ <p>Autor: Dara Castillo - <a href="mailto:anaidcm9@gmail.com" style="color:white;">Contacto</a></p>
+</footer>
+
+</body>
+</html>
